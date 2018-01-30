@@ -163,7 +163,7 @@ section {
 }
 
 .catalog-link {
-  text-decoration-style: dashed;
+  border-bottom: 1px dashed var(--link-color);
   color: var(--link-color);
   transition: var(--transition);
 }
