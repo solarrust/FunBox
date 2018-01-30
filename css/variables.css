@@ -24,7 +24,7 @@
 
   @custom-selector :--enter :hover, :focus;
 
-  @custom-media --mobile-screen (width <= 500px);
-  @custom-media --tablets-screen (width > 500px) and (width <= 960px);
+  @custom-media --mobile-screen (width <= 560px);
+  @custom-media --tablets-screen (width > 560px) and (width <= 960px);
   @custom-media --desktop-screen (width > 960px);
 }

@@ -268,7 +268,11 @@ section {
     width: 90%;
   }
 
-  .catalog-wrapper:before {
-    top: -27px;
+  .catalog-wrapper {
+    clip-path: none;
+
+    &:before {
+      display: none;
+    }
   }
 }
